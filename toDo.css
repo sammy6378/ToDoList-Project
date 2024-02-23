@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+body{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background: url(Sms\ Chatting.jpeg) no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+
+.flex-container{
+    display:block;
+    height: auto;
+    background: #fff;
+    padding:20px;
+    border-radius: 20px;
+    box-shadow: 0 0 4px;
+    text-align: center;
+}
+
+.flex-container h1{
+ display: block;
+ padding: 10px 15px;
+ font-size: 1.2rem;
+ color: #000;
+}
+
+.task-manager{
+    display: block;
+    padding: 10px 10px;
+}
+
+.task-manager input{
+    padding: 10px;
+   border-radius: 10px;
+   outline: none;
+   border:1px solid blue;
+    font-size: 1rem;
+}
+
+.task-manager .add-task{
+    padding: 10px;
+}
+
+.add-task{
+    width: 80px;
+    border-radius: 8px;
+    border: 1px solid green;
+    background: transparent;
+    font-size: 20px;
+    cursor: pointer;
+    color: #000;
+    outline: none;
+}
+
+.add-task:hover{
+    background-color: green;
+    color: #fff;
+}
+
+.time{
+    padding: 0px 7px;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.show-task{
+    display:flex;
+    flex-direction: column;
+    width: 400px;
+    height: 200px;
+    background: #fff;
+    margin-left: 40px;
+    border-radius:2px;
+    box-shadow: 0 0 2px;
+    padding: 20px;
+    text-align: center;
+    overflow: auto;
+}
+
+
+.list-items{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    vertical-align: baseline;
+    padding: 10px 8px;
+}
+
+.list{
+    display: flex;
+    list-style: none;
+    color: #000;
+    font-size: 1.2rem;
+}
+
+.small{
+    color: red;
+}
+
+
+
+
+.done{
+    background: transparent;
+    cursor: pointer;
+    margin-left: 20px;
+    width: 50px;
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid orange;
+    color: #000;
+}
+
+.done:hover{
+    background: orange;
+    color: #fff;
+}
+
+.delete{
+    background: transparent;
+    cursor: pointer;
+    padding: 8px;
+    width: 50px;
+    margin-left: 10px;
+    border-radius: 5px;
+    border: 1px solid red;
+    color: #000;
+}
+
+
